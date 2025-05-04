@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to top, black, rgba(63, 63, 63, 0.864)); 
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    margin: 30px 0;
+}
+
+.formulario{
+    width: 100%;
+    max-width: 730px;
+    padding: 30px; ;
+    background-color: #242124;
+    border-radius: 10px;
+}
+
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 40px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 170px 0 170px; ;
+
+}
+
+.botones_registro{
+    display: flex;
+    flex-direction: column;
+}
+
+.botones_registro button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centramos el texto con ayuda de un truco abajo */
+    position: relative;
+    padding: 13px;
+    padding-left: 50px;
+    margin-bottom: 8px;
+    background-color: #242124;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid gray;
+    border-radius: 50px;
+    overflow: hidden; /* evita que la imagen se salga en pantallas pequeñas */
+}
+
+.botones_registro button img {
+    position: absolute;
+    left: 20px;
+    width: 20px;
+    height: auto;
+}
+
+
+.divisor{
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.parrafos{
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    background-color: #242124;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.boton_inicio{
+    width: 100%;    
+    padding: 15px;
+    background-color: #26d167;
+    border-radius: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    margin-top: 15px;
+}
+
+.perdido{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    margin: 28px 0;
+}
+
+.cuenta{
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+.cuenta a{
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+}
+
